@@ -1,6 +1,6 @@
 cask "caffeinatemenubar" do
-  version "0.1.8"
-  sha256 "a0e5e072410e2657160124266efb178cffb498a5fbfa820c64c38f1cd01c1d1f"
+  version "0.1.9"
+  sha256 "eb63b05258e2c1afd94c0eb9d46868dea0239fd5be6688a41754974443652093"
 
   url "https://github.com/slastrina/caffeinate-menubar/releases/download/v#{version}/CaffeinateMenubar.zip"
   name "CaffeinateMenubar"
