@@ -7,7 +7,7 @@ cask "caffeinatemenubar" do
   desc "Menubar app that wraps the macOS caffeinate command"
   homepage "https://github.com/slastrina/caffeinate-menubar"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "CaffeinateMenubar.app"
 
