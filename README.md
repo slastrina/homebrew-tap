@@ -3,12 +3,14 @@
 Personal tap. Currently hosts:
 
 - [CaffeinateMenubar](https://github.com/slastrina/caffeinate-menubar) — menubar app that wraps the macOS `caffeinate` command
+- [Rattleboard](https://github.com/slastrina/rattleboard) — split-flap desktop mirror and virtual board for Vestaboard
 
 ## Install
 
 ```bash
 brew tap slastrina/tap
 brew install --cask caffeinatemenubar
+brew install --cask rattleboard
 ```
 
 ## Maintenance
