@@ -9,10 +9,11 @@ Personal tap. Currently hosts:
 
 ```bash
 brew tap slastrina/tap
+brew trust --tap slastrina/tap   # Homebrew 7+ only loads casks from taps you trust
 brew install --cask caffeinatemenubar
 brew install --cask rattleboard
 ```
 
 ## Maintenance
 
-Cask files are auto-bumped by the source repo's release workflow on every tagged release. Manual edits will be overwritten — submit changes against the source repo instead.
+Cask files are bumped for each tagged release of the source repo. Submit changes against the source repo instead.
