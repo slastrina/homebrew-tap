@@ -1,10 +1,10 @@
 cask "rattleboard" do
-  version "0.1.3"
-  sha256 "cc8f02bdb4a66b3dbbb5edd59b9f32977eede0e41ae3b4febdc6fe12b3e7ba83"
+  version "0.2.0"
+  sha256 "2776a51a48d159f746a4cd332e6bfcee7b179ac8052fac9d82733f08f74bf1a5"
 
   url "https://github.com/slastrina/rattleboard/releases/download/v#{version}/Rattleboard_#{version}_universal.dmg"
   name "Rattleboard"
-  desc "Split-flap desktop mirror and virtual board for Vestaboard"
+  desc "Split-flap message board for the menu bar, desktop or full screen"
   homepage "https://github.com/slastrina/rattleboard"
 
   depends_on macos: :big_sur
