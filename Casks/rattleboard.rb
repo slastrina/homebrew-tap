@@ -7,7 +7,7 @@ cask "rattleboard" do
   desc "Split-flap message board for the menu bar, desktop or full screen"
   homepage "https://github.com/slastrina/rattleboard"
 
-  depends_on macos: :big_sur
+  depends_on :macos
 
   app "Rattleboard.app"
 

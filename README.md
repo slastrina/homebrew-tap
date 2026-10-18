@@ -3,7 +3,7 @@
 Personal tap. Currently hosts:
 
 - [CaffeinateMenubar](https://github.com/slastrina/caffeinate-menubar) — menubar app that wraps the macOS `caffeinate` command
-- [Rattleboard](https://github.com/slastrina/rattleboard) — split-flap desktop mirror and virtual board for Vestaboard
+- [Rattleboard](https://github.com/slastrina/rattleboard) — split-flap message board for the menu bar, desktop or full screen
 
 ## Install
 
