@@ -1,6 +1,6 @@
 cask "rattleboard" do
-  version "0.9.1"
-  sha256 "b9826a19b2eab529d810ea8e8851fa59fa2d1fcd3f1a0c81c726ba75e9501665"
+  version "0.10.0"
+  sha256 "4e10be226c4c3ca2821de51a3be11ec2b39c07f540b484968d574f824dbc70fe"
 
   url "https://github.com/slastrina/rattleboard/releases/download/v#{version}/Rattleboard_#{version}_universal.dmg"
   name "Rattleboard"
