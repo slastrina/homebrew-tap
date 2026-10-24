@@ -11,6 +11,9 @@ cask "tokenrunway" do
 
   app "Tokenrunway.app"
   binary "#{appdir}/Tokenrunway.app/Contents/MacOS/tokenrunway"
+  # Short names; not "tr", which is the Unix tool.
+  binary "#{appdir}/Tokenrunway.app/Contents/MacOS/tokenrunway", target: "runway"
+  binary "#{appdir}/Tokenrunway.app/Contents/MacOS/tokenrunway", target: "trw"
 
   uninstall quit: "io.github.slastrina.tokenrunway"
 
