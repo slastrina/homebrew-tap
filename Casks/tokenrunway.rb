@@ -1,6 +1,6 @@
 cask "tokenrunway" do
-  version "0.1.1"
-  sha256 "070cd4ee1d75b8f5af59cae700962db2ba5592d38d8db13ae13b904d8a6e8ddf"
+  version "0.2.0"
+  sha256 "a50664765e96ad14b6f1b946a5688da7c64af9ec359108fc6c6ce4c551a02ace"
 
   url "https://github.com/slastrina/tokenrunway/releases/download/v#{version}/Tokenrunway_#{version}_universal.dmg"
   name "Tokenrunway"
@@ -10,6 +10,7 @@ cask "tokenrunway" do
   depends_on :macos
 
   app "Tokenrunway.app"
+  binary "#{appdir}/Tokenrunway.app/Contents/MacOS/tokenrunway"
 
   uninstall quit: "io.github.slastrina.tokenrunway"
 
