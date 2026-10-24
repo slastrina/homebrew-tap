@@ -1,6 +1,6 @@
 cask "tokenrunway" do
-  version "0.2.0"
-  sha256 "a50664765e96ad14b6f1b946a5688da7c64af9ec359108fc6c6ce4c551a02ace"
+  version "0.2.1"
+  sha256 "796ca2e9c19f091f43043cbe24e48a2bb74791a72dedfa4c577dd665321e319e"
 
   url "https://github.com/slastrina/tokenrunway/releases/download/v#{version}/Tokenrunway_#{version}_universal.dmg"
   name "Tokenrunway"
